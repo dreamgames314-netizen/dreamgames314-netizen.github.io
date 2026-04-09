@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>dream games official website</title>
+	<style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        /* Modern Navigation Bar */
+        nav {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background: #fff;
+            gap: 20px;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            flex-grow: 1;
+        }
+
+        .logo-section img {
+            background: black;
+            margin-right: 10px;
+        }
+
+        /* Dropdown Menu */
+        .games-dropdown {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .games-dropdown summary {
+            list-style: none;
+            outline: none;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            right: 0;
+            top: 100%;
+            background: #f9f9f9;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            padding: 10px;
+            width: 250px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .dropdown-content button {
+            width: 100%;
+            text-align: left;
+            padding: 8px;
+            cursor: pointer;
+            font-family: 'Tahoma', sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        video {
+            width: 100%;
+            max-height: 100vh;
+            object-fit: cover;
+        }
+
+        footer {
+            padding: 20px;
+            border-top: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+	</head>
+	<body>
+	
+    <nav>
+        <a href="dream games website.html" class="logo-section">
+            <img src="dglogo.png" width="40" alt="Logo">
+            <h1>DREAM GAMES</h1>
+        </a>
+
+        <!-- Home Button -->
+        <a href="index.html">
+            <img src="homebtn.png" width="115" alt="Home">
+        </a>
+
+        <!-- Games Dropdown -->
+        <details class="games-dropdown">
+            <summary><img src="gamesbtn.png" width="150" alt="Games"></summary>
+            <div class="dropdown-content">
+                <a href="us26.html">
+                    <button><img src="us26.jpg" width="25"> ULTIMATE SOCCER 2026</button>
+                </a>
+                <a href="us26mlg.html">
+                    <button><img src="mlg.png" width="25"> ULTIMATE SOCCER 2026 MLG</button>
+                </a>
+            </div>
+        </details>
+    </nav>
+
+		<video autoplay controls width="1450">
+				<source src="Ultimate Soccer 2026 MLG edition Official Trailer.mp4" size="6">
+		</video>
+		<br>
+	</body>
+</html>
